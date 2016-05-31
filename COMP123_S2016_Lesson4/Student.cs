@@ -56,6 +56,22 @@ namespace COMP123_S2016_Lesson4
          */
         public Student(string name, int age, string studentID):base(name, age)
         {
+            this.StudentID = studentID;
+        }
+
+        // PUBLIC METHODS +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+        /** 
+         * <summary>
+         * This method enables the Studies behavior for the student 
+         * </summary>
+         * 
+         * @method Studies 
+         * @returns {void} 
+         */ 
+        public void Studies() 
+        {
+            Console.WriteLine(this.Name + "studies.");
         }
     }
 }
