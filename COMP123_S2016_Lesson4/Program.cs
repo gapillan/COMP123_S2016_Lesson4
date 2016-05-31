@@ -23,11 +23,12 @@ namespace COMP123_S2016_Lesson4
         public static void Main(string[] args)
         {
             // create instance of the Student 
-            Student tommy = new Student();
-
-            tommy.Age = 20;
-            tommy.Name = "Tommy";
+            Student tommy = new Student("Tommy", 20, "1234567");
             tommy.SaysHello();
+
+            Console.WriteLine();
+
+            tommy.Studies();
         }
     }
 }

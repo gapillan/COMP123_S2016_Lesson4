@@ -71,7 +71,7 @@ namespace COMP123_S2016_Lesson4
          */ 
         public void Studies() 
         {
-            Console.WriteLine(this.Name + "studies.");
+            Console.WriteLine(this.Name + " studies.");
         }
     }
 }
