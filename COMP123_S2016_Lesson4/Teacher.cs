@@ -16,5 +16,30 @@ namespace COMP123_S2016_Lesson4
      */
     class Teacher : Person
     {
+        // PRIVATE INSTANCE VARIABES +++++++++++++++++++++++++++++++
+
+        private string _employeeID;
+
+        // PUBLIC PROPERTIES +++++++++++++++++++++++++++++++++++++++
+
+        public string EmployeeID 
+        {
+            get 
+            {
+                return this._employeeID;
+            }
+            set 
+            {
+                this._employeeID = value;
+            }
+        }
+
+        // CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++
+
+        public Teacher(string name, int age, string employeeID) 
+            : base(name, age)
+        {
+            this.EmployeeID = employeeID;
+        }
     }
 }
