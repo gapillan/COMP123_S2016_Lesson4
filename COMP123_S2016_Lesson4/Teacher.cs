@@ -36,10 +36,36 @@ namespace COMP123_S2016_Lesson4
 
         // CONSTRUCTORS ++++++++++++++++++++++++++++++++++++++++++
 
+        /**
+         * <summary>
+         * This constructor method takes three parameters: name, age and employeeID
+         * </summary>
+         * 
+         * @constructor Teacher 
+         * @param {string} name 
+         * @param {int} age 
+         * @param {string} employeeID
+         */
         public Teacher(string name, int age, string employeeID) 
             : base(name, age)
         {
             this.EmployeeID = employeeID;
         }
+
+        // PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++
+        
+        /**
+         * <summary>
+         * This method enables the Teaches behaviour for the Teacher class 
+         * </summary>
+         * 
+         * @method Teaches
+         * @return {void}
+         */
+        public void Teaches() 
+        {
+            Console.WriteLine(this.Name + " teaches.");
+        }
+
     }
 }
