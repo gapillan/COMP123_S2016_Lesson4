@@ -13,10 +13,10 @@ namespace COMP123_S2016_Lesson4
      * 
      * @class Card
      */
-    class Card
+    public class Card
     {
         // PUBLIC PROPERTIES ++++++++++++++++++++++++++++++++++
-        public string Face { get; set; }
+        public int Face { get; set; }
 
         public string Suit { get; set; }
 
@@ -29,10 +29,10 @@ namespace COMP123_S2016_Lesson4
          * </summary>
          * 
          * @constructor Card 
-         * @param {string} face
+         * @param {int} face
          * @param {string} suit
          */
-        public Card(string face, string suit)
+        public Card(int face, string suit)
         {
             this.Face = face;
             this.Suit = suit;

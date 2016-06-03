@@ -74,6 +74,39 @@ namespace COMP123_S2016_Lesson4
                 count++;
             }
             Console.WriteLine("+++++++++++++++++++++++++++++++++++++");
+
+            // creating a Deck list 
+
+            List<Card> Deck = new List<Card>();
+
+            CreateDeck(Deck);
+        }
+
+        public static void CreateDeck(List<Card> deck) 
+        {
+            string suit;
+
+            for (int i = 1; i < 4; i++)
+			{
+			 switch(i) 
+             {
+                 case 0;
+                     suit = "hearts";
+                     break;
+                     case 1;
+                     suit = "clubs";
+                     break;
+                     suit = "Diamonds";
+                     break;
+                     suit = "Spades";
+                     break;
+
+             }
+			}
+            for (int index = 1; index < 14; index++) 
+            {
+                deck.Add(new Card(index, string ));
+            }
         }
     }
 }
