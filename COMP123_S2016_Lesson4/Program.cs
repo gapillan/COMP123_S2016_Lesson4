@@ -54,6 +54,7 @@ namespace COMP123_S2016_Lesson4
             //myList.Add(5);
             //myList.Clear();
             //myList.Print();
+            Console.WriteLine();
 
             // creating a string type list 
 
@@ -62,6 +63,17 @@ namespace COMP123_S2016_Lesson4
             names.Add("Tom");
             names.Add("Mary");
             names.Add("Jerry");
+
+
+            int count = 0;
+            Console.WriteLine();
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++");
+            foreach (string name in names)
+            {
+                Console.WriteLine("Name#" + count + " is " + name);
+                count++;
+            }
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++");
         }
     }
 }
