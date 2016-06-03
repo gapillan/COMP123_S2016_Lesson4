@@ -45,6 +45,10 @@ namespace COMP123_S2016_Lesson4
             Console.WriteLine();
 
             tom.Teaches();
+
+            // create a new variable class called MyList
+
+            MyList myList = new MyList();
         }
     }
 }
