@@ -87,5 +87,18 @@ namespace COMP123_S2016_Lesson4
         {
             Console.WriteLine(this.Name + " studies.");
         }
+
+        public void ShowCourses() 
+        {
+            Console.WriteLine();
+            Console.WriteLine("Course List");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++");
+            foreach (Course course in this._courses)
+            {
+                Console.WriteLine("+ " + course.Code + " " + course.Description);
+            }
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine();
+        }
     }
 }
