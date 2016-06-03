@@ -48,7 +48,20 @@ namespace COMP123_S2016_Lesson4
 
             // create a new variable class called MyList
 
-            MyList myList = new MyList();
+            //MyList myList = new MyList();
+
+            //myList.Add(1);
+            //myList.Add(5);
+            //myList.Clear();
+            //myList.Print();
+
+            // creating a string type list 
+
+            List<string> names = new List<string>();
+
+            names.Add("Tom");
+            names.Add("Mary");
+            names.Add("Jerry");
         }
     }
 }
