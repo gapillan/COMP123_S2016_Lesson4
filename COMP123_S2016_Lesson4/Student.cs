@@ -97,7 +97,7 @@ namespace COMP123_S2016_Lesson4
             {
                 Console.WriteLine("+ " + course.Code + " " + course.Description);
             }
-            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("+++++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine();
         }
     }

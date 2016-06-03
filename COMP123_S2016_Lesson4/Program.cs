@@ -32,6 +32,7 @@ namespace COMP123_S2016_Lesson4
 
             tommy.Courses.Add(new Course("COMP123", "Programming 2"));
             tommy.Courses.Add(new Course("COMP125", "Client-Web Development"));
+            tommy.Courses.Add(new Course("COMP397", "Web Game Programming"));
 
             tommy.ShowCourses();
 
